@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang=”ru”>
+  <head>
+    <meta charset=”utf-8”>
+    <title>PINK - Фотографии</title>
+  </head>
+  <body>
+    <header class=”page-header”>
+      <a class=”page-header__logo”>
+        <img class=”page-header__logo-image” src=”img/logo.svg” width=”…” height=”…” alt=”PINK”>
+      </a>
+      <nav class=”main-nav”>
+        <button class=”main-nav__switch” type=”button”>Открыть меню</button>
+        <div class=”main-nav__wrapper”>
+          <ul class=”main-nav__list site-list”>
+            <li class=”site-list__item site-list__item”>
+              <a href=”index.html >Главная</a>
+            </li>
+            <li class=”site-list__item—active”>
+              <a>Фотографии</a>
+            </li>
+            <li class=”site-list__item”>
+              <a href=”form.html”>Конкурс</a>
+            </li>
+            <li class=”site-list__item”>
+              <a href=”http://htmlacademy.ru/intensive/adaptive”> HTML Academy</a> <!--верна ли ссылка?-->
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+      <h2 class="visual">Фотографии пользователей</h2>
+
+    <main class=”page-main”>
+<!--В каждый пост вниз необходимо поставить кнопочку для лайков. Но все посты на js, я пока даже не знаю какие заглушки поставить. Погуглю ещё, конечно. Но от наводки не откажусь-->
+      <div class=”posts”>
+        <p class=”posts-intro”>Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+        <article class=”post”>
+          <header class=”post-header”>
+              <p class=”daily-image”>Панорама дня</p>
+              <a href=”anna.html”><img src=”img/anna.svg” width=”…” height=”…” alt=”Анна”></a>
+          </header>
+          <section class=”post-item”>
+            <h4 class=”post-autor>Анна<datetime … 5 минут></h4>
+            <p class=”post-text”>Прыгать или нет? Напишите в комментарии свой ответ и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+            <like>
+          </section>
+        </article>
+        <article class=”post”>
+          <header class=”post-header”>
+              <a href=”levon.html”><img src=”levon.svg” width=”…” height=”…” alt=”Левон”></a>
+          </header>
+          <section class=”post-item”>
+            <h4 class=”post-autor>Левон<datetime …5ч></h4>
+            <p class=”post-text”>Вчера он на луну летал, сегодня в руки к нам попал.</p>
+            <like>
+          </section>
+        </article>
+        <article class=”post”>
+          <header class=”post-header”>
+              <a href=”anton.html”><img src=”anton.svg” width=”…” height=”…” alt=”Антон”></a>
+          </header>
+          <section class=”post-item”>
+            <h4 class=”post-autor>Антон<datetime …12ч></h4>
+            <p class=”post-text”>Соседи будут рады!</p>
+            <like>
+          </section>
+        </article>
+        <article class=”post”>
+          <header class=”post-header”>
+              <a href=”boris.html”><img src=”boris.svg” width=”…” height=”…” alt=”Борис”></a>
+          </header>
+          <section class=”post-item”>
+            <h4 class=”post-autor>Борис<datetime …20ч></h4>
+            <p class=”post-text”>Здесь могла быть ваша цитата о высоком и вечном.</p>
+            <like>
+          </section>
+        </article>
+        <article class=”post”>
+          <header class=”post-header”>
+              <a href=”sergey.html”><img src=”sergey.svg” width=”…” height=”…” alt=”Сергей”></a>
+          </header>
+          <section class=”post-item”>
+            <h4 class=”post-autor>Сергей<datetime …25ч></h4>
+            <p class=”post-text”>Самая кубанская в мире!</p>
+            <like>
+          </section>
+        </article>
+        <article class=”post”>
+          <header class=”post-header”>
+              <a href=”maxim.html”><img src=”maxim.svg” width=”…” height=”…” alt=”Максим”></a>
+          </header>
+          <section class=”post-item”>
+            <h4 class=”post-autor>Максим<datetime …40ч></h4>
+            <p class=”post-text”>Где снег-то?</p>
+            <like>
+          </section>
+        </article>
+        <article class=”post”>
+          <header class=”post-header”>
+              <a href=”nadejda.html”><img src=”nadejda.svg” width=”…” height=”…” alt=”Надежда”></a>
+          </header>
+          <section class=”post-item”>
+            <h4 class=”post-autor>Надежда<datetime …45ч></h4>
+            <p class=”post-text”>Всем GM и взаимные лайки!</p>
+            <like>
+          </section>
+        </article>
+
+        <div class="call">
+          <p class=”post-end”>Затмите их всех! Выкладывайте всё, что накопилось в телефоне!</p>
+        </div>
+
+        <form class="load-image" action="https://echo.htmlacademy.ru" method="post"> <!--прошу подсказку, как поставить слайдер-->
+          <div class="load-wrapper">
+            <img src="img/load-image" alt="Ваше фото">
+              <div class="load-settings">
+                <img class="settings" src="img/cut.svg" alt="Обрезать">
+                <img class="settings" src="img/pour.svg" alt="Заливка">
+                <img class="settings" src="img/contrast.svg" alt="Контрастность">
+              </div>
+              <div class="load-buttons">
+               <input class="load-setup__load" type="submit" value="Запостить">
+               <input class="load-setup__cancel" type="submit" value="Отмена">
+             </div>
+          </div>
+        </form>
+
+      </div>
+
+</main>
+
+    <footer class=”photo-footer”>
+      <div class=”photo-footer__social”>
+        <a href=”index.html”><img src=”img/logotype.svg” width=”#” height=”#” alt=”PINK”></a>
+        <div class="page-footer__social social">
+          <!--<b class="social__title">Социальные сети</b>-->
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="https://twitter.com/pink">Мы в Твиттере</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="https://www.facebook.com/pink">Мы в Фейсбуке</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="https://www.youtube.com/pink">Мы в Ютьюб</a>
+            </li>
+          </ul>
+        </div>
+          <b class="copyright__text">Разработано</b>
+          <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><img src=”img/HTMLAcademy.svg” alt=”HTML Academy” width=”#” height=”#”></a>
+      </div>
+    </footer>
+
+</html>
