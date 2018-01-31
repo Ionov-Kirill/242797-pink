@@ -13,10 +13,10 @@
         <button class=”main-nav__switch” type=”button”>Открыть меню</button>
         <div class=”main-nav__wrapper”>
           <ul class=”main-nav__list site-list”>
-            <li class=”site-list__item site-list__item”>
+            <li class=”site-list__item”>
               <a href=”index.html >Главная</a>
             </li>
-            <li class=”site-list__item—active”>
+            <li class=”site-list__item site-list__item--active”>
               <a>Фотографии</a>
             </li>
             <li class=”site-list__item”>
@@ -32,10 +32,10 @@
 
       <h2 class="visual">Фотографии пользователей</h2>
 
-    <main class=”page-main”>
+    <main class=”page-main”><!--Здесь могу оставить классы через тире - они ведь разные?-->
 <!--В каждый пост вниз необходимо поставить кнопочку для лайков. Но все посты на js, я пока даже не знаю какие заглушки поставить. Погуглю ещё, конечно. Но от наводки не откажусь-->
       <div class=”posts”>
-        <p class=”posts-intro”>Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+        <p class=”posts__intro”>Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
         <article class=”post”>
           <header class=”post-header”>
               <p class=”daily-image”>Панорама дня</p>
@@ -44,7 +44,7 @@
           <section class=”post-item”>
             <h4 class=”post-autor>Анна<datetime … 5 минут></h4>
             <p class=”post-text”>Прыгать или нет? Напишите в комментарии свой ответ и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
-            <like>
+            <button class="like" type="button"><img class="like__heart" src="img/heart.svg" alt="Нравится">Нравится: 215</button>
           </section>
         </article>
         <article class=”post”>
@@ -54,7 +54,7 @@
           <section class=”post-item”>
             <h4 class=”post-autor>Левон<datetime …5ч></h4>
             <p class=”post-text”>Вчера он на луну летал, сегодня в руки к нам попал.</p>
-            <like>
+            <button class="like" type="button"><img class="like__heart" src="img/heart.svg" alt="Нравится">Нравится: 356</button>
           </section>
         </article>
         <article class=”post”>
@@ -64,7 +64,7 @@
           <section class=”post-item”>
             <h4 class=”post-autor>Антон<datetime …12ч></h4>
             <p class=”post-text”>Соседи будут рады!</p>
-            <like>
+            <button class="like" type="button"><img class="like__heart" src="img/heart.svg" alt="Нравится">Нравится: 666</button>
           </section>
         </article>
         <article class=”post”>
@@ -74,7 +74,7 @@
           <section class=”post-item”>
             <h4 class=”post-autor>Борис<datetime …20ч></h4>
             <p class=”post-text”>Здесь могла быть ваша цитата о высоком и вечном.</p>
-            <like>
+            <button class="like" type="button"><img class="like__heart" src="img/heart.svg" alt="Нравится">Нравится: 215</button>
           </section>
         </article>
         <article class=”post”>
@@ -84,7 +84,7 @@
           <section class=”post-item”>
             <h4 class=”post-autor>Сергей<datetime …25ч></h4>
             <p class=”post-text”>Самая кубанская в мире!</p>
-            <like>
+            <button class="like" type="button"><img class="like__heart" src="img/heart.svg" alt="Нравится">Нравится: 4</button>
           </section>
         </article>
         <article class=”post”>
@@ -94,7 +94,7 @@
           <section class=”post-item”>
             <h4 class=”post-autor>Максим<datetime …40ч></h4>
             <p class=”post-text”>Где снег-то?</p>
-            <like>
+            <button class="like" type="button"><img class="like__heart" src="img/heart.svg" alt="Нравится">Нравится: 150</button>
           </section>
         </article>
         <article class=”post”>
@@ -104,7 +104,7 @@
           <section class=”post-item”>
             <h4 class=”post-autor>Надежда<datetime …45ч></h4>
             <p class=”post-text”>Всем GM и взаимные лайки!</p>
-            <like>
+            <button class="like" type="button"><img class="like__heart" src="img/heart.svg" alt="Нравится">Нравится: 2560</button>
           </section>
         </article>
 

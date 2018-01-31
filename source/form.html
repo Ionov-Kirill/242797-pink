@@ -13,13 +13,13 @@
         <button class=”main-nav__switch” type=”button”>Открыть меню</button>
         <div class=”main-nav__wrapper”>
           <ul class=”main-nav__list site-list”>
-            <li class=”site-list__item site-list__item”>
+            <li class=”site-list__item”>
               <a href=”index.html >Главная</a>
             </li>
             <li class=”site-list__item”>
               <a href=”photo.html”>Фотографии</a>
             </li>
-            <li class=”site-list__item—active”>
+            <li class=”site-list__item site-list__item--active”>
               <a>Конкурс</a>
             </li>
             <li class=”site-list__item”>
@@ -35,10 +35,10 @@
     <main class=”page-main”>
 
       <div class=”forms”>
-        <p class=”forms-intro”>Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
+        <p class=”forms__intro”>Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
         <form class="form" action="https://echo.htmlacademy.ru" method="post">
 
-          <section class="form-name">
+          <section class="form__name">
 
             <label for="surname">Фамилия:</label>
             <input type="text" name="surname" value="Укажите фамилию *">
@@ -53,32 +53,32 @@
             <p class="achivment-title">Ваши безбашенные достиженияв путешествии</p>
 
             <ul>
-              <li>
+              <li class="achivment__item">
                 <input type="checkbox" name="1" checked>
                 <!-- <img class="checkbox check1" src="img/checkbox-on.png" widht="27" height="23" alt="check-point"> -->
                 <label for="1">Сделал селфи с акулой</label>
               </li>
-              <li>
+              <li class="achivment__item">
                 <input type="checkbox" name="2" checked>
                 <!-- <img class="checkbox check1" src="img/checkbox-on.png" widht="23" height="23" alt="check-point"> -->
                 <label for="2">Обгорел на пляже</label>
               </li>
-              <li>
+              <li class="achivment__item">
                 <input type="checkbox" name="3">
                 <!-- <img class="checkbox check2" src="img/checkbox-off.png" widht="23" height="23" alt="check-point"> -->
                 <label for="3">Видел Чака Норриса</label>
               </li>
-              <li>
+              <li class="achivment__item">
                 <input type="checkbox" name="4">
                 <!-- <img class="checkbox check2" src="img/checkbox-off.png" widht="23" height="23" alt="check-point"> -->
                 <label for="4">Накупил сувениров</label>
               </li>
-              <li>
+              <li class="achivment__item">
                 <input type="checkbox" name="5" checked>
                 <!-- <img class="checkbox check1" src="img/checkbox-on.png" widht="23" height="23" alt="check-point"> -->
                 <label for="5">Удержал башню</label>
               </li>
-              <li>
+              <li class="achivment__item">
                 <input type="checkbox" name="6">
                 <!-- <img class="checkbox check2" src="img/checkbox-off.png" widht="23" height="23" alt="check-point"> -->
                 <label for="6">Разгромил отель</label>
@@ -94,20 +94,20 @@
           </section>
 
           <section class="application">
-            <p class="application-title">С каким приложением путешествовали?</p>
+            <p class="application__title">С каким приложением путешествовали?</p>
 
             <ul>
-              <li>
+              <li class="application__item">
                 <input type="radio" name="01" checked>
                 <!-- <img class="radoi check1" src="img/radio-on.png" widht="27" height="23" alt="check-point"> -->
                 <label for="01">Pink для iOS</label>
               </li>
-              <li>
+              <li class="application__item">
                 <input type="radio" name="02">
                 <!-- <img class="radio check1" src="img/radio-off.png" widht="23" height="23" alt="check-point"> -->
                 <label for="02">Pink на Android</label>
               </li>
-              <li>
+              <li class="application__item">
                 <input type="radio" name="03">
                 <!-- <img class="radio check2" src="img/radio-off.png" widht="23" height="23" alt="check-point"> -->
                 <label for="03">Windows Phone</label>
@@ -117,10 +117,10 @@
 
           <section class="emotions">
 
-            <label for="emotions-comment">Опишите свои эмоции</label>
+            <label for="emotions__comment">Опишите свои эмоции</label>
             <textarea name="comment"  rows="10">Можно прм в красках, не стесняясь в выражениях</textarea>
             <input type="submit" value="Отправить форму">
-            <p class="marked"><span class="marked-star">*-Обязательные поля</span></p>
+            <p class="marked"><span class="marked__star">*-Обязательные поля</span></p>
 
           </section>
         </form>
